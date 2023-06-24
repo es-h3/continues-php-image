@@ -25,5 +25,5 @@ jobs:
     - name: Build,tag and push the Docker image
       run:  |
          docker build .  --tag es-h3/continues-php-image 
-         docker tag es-h3/continues_php_image:latest public.ecr.aws/g0m7y4h5/es-h3/continues_php_image:latest^C
+         docker tag es-h3/continues_php_image:latest public.ecr.aws/g0m7y4h5/es-h3/continues_php_image:latest
          docker push public.ecr.aws/g0m7y4h5/es-h3/continues_php_image:latest
